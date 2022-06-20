@@ -25,8 +25,8 @@ exports.config = {
         // 'test/specs/vtiger/demo2.js'
         // 'test/specs/demo.js'
         // 'test/specs/create_document.js'
-        // 'test/specs/create_product.js'
-        'test/specs/create_compaign.js'
+        'test/specs/create_product.js'
+        // 'test/specs/create_compaign.js'
     ],
     // Patterns to exclude.
 
@@ -62,7 +62,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome',
+        browserName: 'firefox',
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -116,7 +116,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    services: ['selenium-standalone'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

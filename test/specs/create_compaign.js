@@ -52,6 +52,8 @@ describe('vtiger',async()=>
         var switch_window=await browser.getWindowHandles()
        await browser.switchToWindow(switch_window[1])
        await browser.pause(3000)
+       await expect(browser).toHaveTitleContaining("compaigns");
+
 
 
        let srh_txt=await browser.$("//input[@name='search_text']")
