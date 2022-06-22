@@ -1,0 +1,216 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "fb",
+    "children" : [ {
+      "name" : "launch app",
+      "uid" : "306255422accd711",
+      "parentUid" : "f081c7b192aaf170f9497c62bd93fc73",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655883125745,
+        "stop" : 1655883159535,
+        "duration" : 33790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "f081c7b192aaf170f9497c62bd93fc73"
+  }, {
+    "name" : "vtiger",
+    "children" : [ {
+      "name" : "launch app",
+      "uid" : "48cfc6af63e3e99e",
+      "parentUid" : "ddf26b02d56f501af0d27517553dd66d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883190046,
+        "stop" : 1655883245097,
+        "duration" : 55051
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "launch",
+      "uid" : "69e8f55f6fbe13b0",
+      "parentUid" : "ddf26b02d56f501af0d27517553dd66d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883270164,
+        "stop" : 1655883334398,
+        "duration" : 64234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "launch the app",
+      "uid" : "8c22146498767888",
+      "parentUid" : "ddf26b02d56f501af0d27517553dd66d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883380319,
+        "stop" : 1655883403505,
+        "duration" : 23186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "checkbox",
+      "uid" : "70cd058ed09e4d9a",
+      "parentUid" : "ddf26b02d56f501af0d27517553dd66d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883465571,
+        "stop" : 1655883465811,
+        "duration" : 240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "ddf26b02d56f501af0d27517553dd66d"
+  }, {
+    "name" : "jquery_app",
+    "children" : [ {
+      "name" : "launch the app",
+      "uid" : "d8949856a97a827b",
+      "parentUid" : "30ae976a5343ab96d6b1975d65badf0d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655883340347,
+        "stop" : 1655883352510,
+        "duration" : 12163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "launch the app",
+      "uid" : "9685465186fac22d",
+      "parentUid" : "30ae976a5343ab96d6b1975d65badf0d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655893200237,
+        "stop" : 1655893215959,
+        "duration" : 15722
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "firefox-101.0.1" ]
+    }, {
+      "name" : "launch the app",
+      "uid" : "6248d3cb484fc838",
+      "parentUid" : "30ae976a5343ab96d6b1975d65badf0d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655896259914,
+        "stop" : 1655896272525,
+        "duration" : 12611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "30ae976a5343ab96d6b1975d65badf0d"
+  }, {
+    "name" : "amazon",
+    "children" : [ {
+      "name" : "launch the app",
+      "uid" : "1eb2475e3de03122",
+      "parentUid" : "45b861af1894835ca87ffd01629bd3db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883360270,
+        "stop" : 1655883374108,
+        "duration" : 13838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "45b861af1894835ca87ffd01629bd3db"
+  }, {
+    "name" : "frames",
+    "children" : [ {
+      "name" : "launch the browser",
+      "uid" : "61411a6de5eb7a56",
+      "parentUid" : "9505963bcbfbb391596ef771503d9091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883410689,
+        "stop" : 1655883437358,
+        "duration" : 26669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "9505963bcbfbb391596ef771503d9091"
+  }, {
+    "name" : "app",
+    "children" : [ {
+      "name" : "launch app",
+      "uid" : "56300e72f7bee5f",
+      "parentUid" : "7da86937d88e42c9bfdc0d332684cde4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655883445394,
+        "stop" : 1655883457699,
+        "duration" : 12305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "7da86937d88e42c9bfdc0d332684cde4"
+  } ]
+}

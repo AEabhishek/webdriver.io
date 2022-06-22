@@ -11,5 +11,5 @@
         "**/*.json",
         "node_modules/@wdio/sync",
         "node_modules/@wdio/mocha-framework"
-, "test/specs/vtiger/create_contact_with_all_flds.js"    ]
+, "test/specs/vtiger/create_contact_with_all_flds.js", "test/specs/scenarios/scenarion1.js", "test/specs/disabled/disabled.js", "test/specs/disabled/alert.js", "test/specs/vtiger/example.e2e.js"    ]
 }

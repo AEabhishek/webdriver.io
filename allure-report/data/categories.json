@@ -1,0 +1,110 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect window to have title containing\n                \n                Expected: \"vtiger CRM 5\"\n                Received: \"www.facebook.com\"",
+      "children" : [ {
+        "name" : "launch app",
+        "uid" : "306255422accd711",
+        "parentUid" : "04e400ca8ba47af9ae2da6eac9961345",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655883125745,
+          "stop" : 1655883159535,
+          "duration" : 33790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "04e400ca8ba47af9ae2da6eac9961345"
+    }, {
+      "name" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
+      "children" : [ {
+        "name" : "launch the app",
+        "uid" : "d8949856a97a827b",
+        "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655883340347,
+          "stop" : 1655883352510,
+          "duration" : 12163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "launch the app",
+        "uid" : "9685465186fac22d",
+        "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655893200237,
+          "stop" : 1655893215959,
+          "duration" : 15722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "firefox-101.0.1" ]
+      }, {
+        "name" : "launch the app",
+        "uid" : "6248d3cb484fc838",
+        "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655896259914,
+          "stop" : 1655896272525,
+          "duration" : 12611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "e5e42f8684437581098c844b5ec2cf04"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Can't call elementClear on element with selector \"//iframe[@id='frame1']\" because element wasn't found",
+      "children" : [ {
+        "name" : "launch app",
+        "uid" : "56300e72f7bee5f",
+        "parentUid" : "337a185d9c416a1b5fa6313486972600",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655883445394,
+          "stop" : 1655883457699,
+          "duration" : 12305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "337a185d9c416a1b5fa6313486972600"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

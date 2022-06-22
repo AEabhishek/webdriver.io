@@ -1,0 +1,216 @@
+{
+  "31bc89eb43fdb4baf9ee868b12b9c7a1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "306255422accd711",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title containing\n                \n                Expected: \"vtiger CRM 5\"\n                Received: \"www.facebook.com\"",
+      "time" : {
+        "start" : 1655883125745,
+        "stop" : 1655883159535,
+        "duration" : 33790
+      }
+    } ]
+  },
+  "d8ebc446ed083afeda4d25eb9ff3256" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6248d3cb484fc838",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
+      "time" : {
+        "start" : 1655896259914,
+        "stop" : 1655896272525,
+        "duration" : 12611
+      }
+    } ]
+  },
+  "52149cce16d49622f70eb315c68318e2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8949856a97a827b",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
+      "time" : {
+        "start" : 1655883340347,
+        "stop" : 1655883352510,
+        "duration" : 12163
+      }
+    } ]
+  },
+  "56275b1fbd33fc954d36565367502ad7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56300e72f7bee5f",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementClear on element with selector \"//iframe[@id='frame1']\" because element wasn't found",
+      "time" : {
+        "start" : 1655883445394,
+        "stop" : 1655883457699,
+        "duration" : 12305
+      }
+    } ]
+  },
+  "7884768ec657d691b30f142e4adaa9d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c22146498767888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883380319,
+        "stop" : 1655883403505,
+        "duration" : 23186
+      }
+    } ]
+  },
+  "52d0b20b2718f54ef82fe0bffb79c70d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1eb2475e3de03122",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883360270,
+        "stop" : 1655883374108,
+        "duration" : 13838
+      }
+    } ]
+  },
+  "dd62303a33367709456624d6ba4b1a0b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9685465186fac22d",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
+      "time" : {
+        "start" : 1655893200237,
+        "stop" : 1655893215959,
+        "duration" : 15722
+      }
+    } ]
+  },
+  "8fba0ad75686607a995b35146b271d4e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61411a6de5eb7a56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883410689,
+        "stop" : 1655883437358,
+        "duration" : 26669
+      }
+    } ]
+  },
+  "df5500e80c39c669bd7d01ba071c172e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70cd058ed09e4d9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883465571,
+        "stop" : 1655883465811,
+        "duration" : 240
+      }
+    } ]
+  },
+  "570e5797d2ba705b3b4043672109455c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69e8f55f6fbe13b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883270164,
+        "stop" : 1655883334398,
+        "duration" : 64234
+      }
+    } ]
+  },
+  "b5822ce6df59d26a59bacd59846c51d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48cfc6af63e3e99e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883190046,
+        "stop" : 1655883245097,
+        "duration" : 55051
+      }
+    } ]
+  }
+}

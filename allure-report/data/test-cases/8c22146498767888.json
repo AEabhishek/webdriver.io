@@ -1,0 +1,71 @@
+{
+  "uid" : "8c22146498767888",
+  "name" : "launch the app",
+  "fullName" : "vtiger.launch the app",
+  "historyId" : "7884768ec657d691b30f142e4adaa9d6",
+  "time" : {
+    "start" : 1655883380319,
+    "stop" : 1655883403505,
+    "duration" : 23186
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "vtiger"
+  }, {
+    "name" : "testClass",
+    "value" : "vtiger"
+  }, {
+    "name" : "testMethod",
+    "value" : "launch the app"
+  }, {
+    "name" : "package",
+    "value" : "vtiger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25f996a2f9d7b00f",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[@href='index.php?module=Products&action=index']\" because element wasn't found",
+      "time" : {
+        "start" : 1655883250346,
+        "stop" : 1655883265303,
+        "duration" : 14957
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c22146498767888.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

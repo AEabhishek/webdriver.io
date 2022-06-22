@@ -1,5 +1,9 @@
+
+const video = require('wdio-video-reporter');
+
 exports.config = {
     //
+    
     // ====================
     // Runner Configuration
     // ====================
@@ -22,12 +26,21 @@ exports.config = {
     //
     specs: [
         // './test/specs/**/*.js',
-        // 'test/specs/vtiger/demo2.js'
-        // 'test/specs/demo.js'
-        // 'test/specs/create_document.js'
-        'test/specs/create_product.js'
-        // 'test/specs/create_compaign.js'
+        // 'test/specs/demo.js',
+        // 'test/specs/create_document.js',
+        // 'test/specs/create_product.js',
+        // 'test/specs/create_compaign.js',
+        'test/specs/scenarion1.js',
+        // 'test/specs/scenario3.js',
+        // 'test/specs/scenario2.js',
+        // 'test/specs/scenario4.js',
+        // 'test/specs/scenario5.js',
+        // './test/specs/alert.js'
     ],
+    // suites: {
+    //     smokesuite : ['test/specs/create_compaign.js','test/specs/create_product.js'],
+    //     regressionSuite : ['test/specs/create_document.js','test/specs/vtiger/demo2.js']
+    // },
     // Patterns to exclude.
 
     exclude: [
@@ -60,15 +73,23 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
-        //
-        browserName: 'firefox',
+        maxInstances: 1,
+        
+        browserName: 'chrome',
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }],
+    },
+    // {
+    //     maxInstances: 1,
+    //     browserName: 'firefox',
+    //     acceptInsecureCerts: true
+    // }
+
+
+],
     //
     // ===================
     // Test Configurations
@@ -110,7 +131,7 @@ exports.config = {
     connectionRetryTimeout: 120000,
     //
     // Default request retries count
-    connectionRetryCount: 3,
+    connectionRetryCount: 1,
     //
     // Test runner services
     // Services take over a specific job you don't want to take care of. They enhance
@@ -138,8 +159,20 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+//     reporters: ['spec'],
 
+// reporters: [['allure', {
+//     outputDir: 'allure-results',
+//     disableWebdriverStepsReporting: true,
+//     disableWebdriverScreenshotsReporting: false,
+// }]],
+
+reporters: [
+    [video, {
+      saveAllVideos: false,       // If true, also saves videos for successful test cases
+      videoSlowdownMultiplier: 5, // Higher to get slower videos, lower for faster videos [Value 1-100]
+    }],
+  ],
 
     
     //
@@ -243,8 +276,11 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+        if (error) {
+            await browser.takeScreenshot();
+          }
+    },
 
 
     /**

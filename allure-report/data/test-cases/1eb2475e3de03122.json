@@ -1,0 +1,62 @@
+{
+  "uid" : "1eb2475e3de03122",
+  "name" : "launch the app",
+  "fullName" : "amazon.launch the app",
+  "historyId" : "52d0b20b2718f54ef82fe0bffb79c70d",
+  "time" : {
+    "start" : 1655883360270,
+    "stop" : 1655883374108,
+    "duration" : 13838
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "amazon"
+  }, {
+    "name" : "testClass",
+    "value" : "amazon"
+  }, {
+    "name" : "testMethod",
+    "value" : "launch the app"
+  }, {
+    "name" : "package",
+    "value" : "amazon"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1eb2475e3de03122.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

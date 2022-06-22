@@ -1,0 +1,111 @@
+[ {
+  "uid" : "61411a6de5eb7a56",
+  "name" : "launch the browser",
+  "time" : {
+    "start" : 1655883410689,
+    "stop" : 1655883437358,
+    "duration" : 26669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1eb2475e3de03122",
+  "name" : "launch the app",
+  "time" : {
+    "start" : 1655883360270,
+    "stop" : 1655883374108,
+    "duration" : 13838
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8949856a97a827b",
+  "name" : "launch the app",
+  "time" : {
+    "start" : 1655883340347,
+    "stop" : 1655883352510,
+    "duration" : 12163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "56300e72f7bee5f",
+  "name" : "launch app",
+  "time" : {
+    "start" : 1655883445394,
+    "stop" : 1655883457699,
+    "duration" : 12305
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "48cfc6af63e3e99e",
+  "name" : "launch app",
+  "time" : {
+    "start" : 1655883190046,
+    "stop" : 1655883245097,
+    "duration" : 55051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69e8f55f6fbe13b0",
+  "name" : "launch",
+  "time" : {
+    "start" : 1655883270164,
+    "stop" : 1655883334398,
+    "duration" : 64234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6248d3cb484fc838",
+  "name" : "launch the app",
+  "time" : {
+    "start" : 1655896259914,
+    "stop" : 1655896272525,
+    "duration" : 12611
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9685465186fac22d",
+  "name" : "launch the app",
+  "time" : {
+    "start" : 1655893200237,
+    "stop" : 1655893215959,
+    "duration" : 15722
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "70cd058ed09e4d9a",
+  "name" : "checkbox",
+  "time" : {
+    "start" : 1655883465571,
+    "stop" : 1655883465811,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "306255422accd711",
+  "name" : "launch app",
+  "time" : {
+    "start" : 1655883125745,
+    "stop" : 1655883159535,
+    "duration" : 33790
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c22146498767888",
+  "name" : "launch the app",
+  "time" : {
+    "start" : 1655883380319,
+    "stop" : 1655883403505,
+    "duration" : 23186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

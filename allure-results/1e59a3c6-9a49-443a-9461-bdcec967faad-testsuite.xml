@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655882554747' stop='1655882567579'>
+    <name>jquery_app</name>
+    <title>jquery_app</title>
+    <test-cases>
+        <test-case start='1655882554748' status='failed' stop='1655882567576'>
+            <name>launch the app</name>
+            <title>launch the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect window to have url
+                
+                Expected: "C"
+                Received: "https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/"</message>
+                <stack-trace>Error: Expect window to have url
+                
+                Expected: "C"
+                Received: "https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/"
+                    at Context.&lt;anonymous> (C:\Users\Abhi Akshay\Desktop\WebDriver.io\test\specs\scenarion1.js:4:27)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
