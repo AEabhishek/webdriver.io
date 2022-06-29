@@ -30,10 +30,11 @@ exports.config = {
         // 'test/specs/create_document.js',
         // 'test/specs/create_product.js',
         // 'test/specs/create_compaign.js',
-        'test/specs/scenarion1.js',
-        // 'test/specs/scenario3.js',
-        // 'test/specs/scenario2.js',
-        // 'test/specs/scenario4.js',
+        // 'test/specs/vtiger/create_compaign.js',
+        // 'test/specs/scenarion1.js',
+        'test/specs/scenarios/scenario2.js',
+        'test/specs/scenarios/scenario3.js',
+        'test/specs/scenarios/scenario4.js'
         // 'test/specs/scenario5.js',
         // './test/specs/alert.js'
     ],
@@ -68,7 +69,8 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [{
+    capabilities: [
+        {
     
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
@@ -76,6 +78,11 @@ exports.config = {
         maxInstances: 1,
         
         browserName: 'chrome',
+        // 'goog:chromeOptions': {
+        //     // to run chrome headless the following flags are required
+        //     // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
+        //     args: ['--headless', '--disable-gpu'],
+        //     },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -85,6 +92,10 @@ exports.config = {
     // {
     //     maxInstances: 1,
     //     browserName: 'firefox',
+    // 'moz:firefoxOptions': {
+    //     // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
+    //     args: ['-headless']
+    //   },
     //     acceptInsecureCerts: true
     // }
 
@@ -115,13 +126,13 @@ exports.config = {
     //
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
-    bail: 0,
+    bail: 1,
     //
     // Set a base URL in order to shorten url command calls. If your `url` parameter starts
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: 'http://localhost:8888/index.php',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

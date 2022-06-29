@@ -18,7 +18,7 @@ describe('frames',async()=>{
 
            
         await browser.switchToFrame(3)
-        var frame4=await browser.$("//input[@name='mytext4']")
+        // var frame4=await browser.$("//input[@name='mytext4']")
         await frame4.setValue("morning")
         await browser.pause(2000)
            await browser.switchToParentFrame()

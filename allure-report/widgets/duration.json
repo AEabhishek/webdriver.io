@@ -1,5 +1,5 @@
 [ {
-  "uid" : "61411a6de5eb7a56",
+  "uid" : "6c11d98c858ff363",
   "name" : "launch the browser",
   "time" : {
     "start" : 1655883410689,
@@ -9,7 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1eb2475e3de03122",
+  "uid" : "cd2896df139087cb",
   "name" : "launch the app",
   "time" : {
     "start" : 1655883360270,
@@ -19,37 +19,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d8949856a97a827b",
-  "name" : "launch the app",
-  "time" : {
-    "start" : 1655883340347,
-    "stop" : 1655883352510,
-    "duration" : 12163
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "56300e72f7bee5f",
-  "name" : "launch app",
-  "time" : {
-    "start" : 1655883445394,
-    "stop" : 1655883457699,
-    "duration" : 12305
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "48cfc6af63e3e99e",
-  "name" : "launch app",
-  "time" : {
-    "start" : 1655883190046,
-    "stop" : 1655883245097,
-    "duration" : 55051
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "69e8f55f6fbe13b0",
+  "uid" : "416660717673db80",
   "name" : "launch",
   "time" : {
     "start" : 1655883270164,
@@ -59,37 +29,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6248d3cb484fc838",
-  "name" : "launch the app",
-  "time" : {
-    "start" : 1655896259914,
-    "stop" : 1655896272525,
-    "duration" : 12611
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "9685465186fac22d",
-  "name" : "launch the app",
-  "time" : {
-    "start" : 1655893200237,
-    "stop" : 1655893215959,
-    "duration" : 15722
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "70cd058ed09e4d9a",
-  "name" : "checkbox",
-  "time" : {
-    "start" : 1655883465571,
-    "stop" : 1655883465811,
-    "duration" : 240
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "306255422accd711",
+  "uid" : "8bd42c93d9f2825b",
   "name" : "launch app",
   "time" : {
     "start" : 1655883125745,
@@ -99,7 +39,57 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "8c22146498767888",
+  "uid" : "f05a2d1104131f5f",
+  "name" : "launch the app",
+  "time" : {
+    "start" : 1655896259914,
+    "stop" : 1655896272525,
+    "duration" : 12611
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "acd093fc747c1d6b",
+  "name" : "launch app",
+  "time" : {
+    "start" : 1655883445394,
+    "stop" : 1655883457699,
+    "duration" : 12305
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5c7f96bd07e8be0b",
+  "name" : "checkbox",
+  "time" : {
+    "start" : 1655883465571,
+    "stop" : 1655883465811,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "862e54d84e2dd179",
+  "name" : "launch the app",
+  "time" : {
+    "start" : 1655883340347,
+    "stop" : 1655883352510,
+    "duration" : 12163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "64c9e3c7d813565f",
+  "name" : "launch app",
+  "time" : {
+    "start" : 1655883190046,
+    "stop" : 1655883245097,
+    "duration" : 55051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f275d957cf4b2136",
   "name" : "launch the app",
   "time" : {
     "start" : 1655883380319,
@@ -107,5 +97,15 @@
     "duration" : 23186
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e28e4deb8cfbde6b",
+  "name" : "launch the app",
+  "time" : {
+    "start" : 1655893200237,
+    "stop" : 1655893215959,
+    "duration" : 15722
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

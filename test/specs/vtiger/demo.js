@@ -1,3 +1,6 @@
+const loginpage = require("../../pageobjects/loginpage");
+
+// class login extends loginpage
 describe('fb',async()=>{
 
     it('launch app',async()=>{

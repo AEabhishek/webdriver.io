@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "306255422accd711",
+      "uid" : "8bd42c93d9f2825b",
       "status" : "failed",
       "statusDetails" : "Expect window to have title containing\n                \n                Expected: \"vtiger CRM 5\"\n                Received: \"www.facebook.com\"",
       "time" : {
@@ -29,33 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6248d3cb484fc838",
+      "uid" : "f05a2d1104131f5f",
       "status" : "failed",
       "statusDetails" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
       "time" : {
         "start" : 1655896259914,
         "stop" : 1655896272525,
         "duration" : 12611
-      }
-    } ]
-  },
-  "52149cce16d49622f70eb315c68318e2" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d8949856a97a827b",
-      "status" : "failed",
-      "statusDetails" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
-      "time" : {
-        "start" : 1655883340347,
-        "stop" : 1655883352510,
-        "duration" : 12163
       }
     } ]
   },
@@ -69,13 +49,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "56300e72f7bee5f",
+      "uid" : "acd093fc747c1d6b",
       "status" : "broken",
       "statusDetails" : "Can't call elementClear on element with selector \"//iframe[@id='frame1']\" because element wasn't found",
       "time" : {
         "start" : 1655883445394,
         "stop" : 1655883457699,
         "duration" : 12305
+      }
+    } ]
+  },
+  "52149cce16d49622f70eb315c68318e2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "862e54d84e2dd179",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
+      "time" : {
+        "start" : 1655883340347,
+        "stop" : 1655883352510,
+        "duration" : 12163
       }
     } ]
   },
@@ -89,7 +89,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8c22146498767888",
+      "uid" : "f275d957cf4b2136",
       "status" : "passed",
       "time" : {
         "start" : 1655883380319,
@@ -108,32 +108,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1eb2475e3de03122",
+      "uid" : "cd2896df139087cb",
       "status" : "passed",
       "time" : {
         "start" : 1655883360270,
         "stop" : 1655883374108,
         "duration" : 13838
-      }
-    } ]
-  },
-  "dd62303a33367709456624d6ba4b1a0b" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9685465186fac22d",
-      "status" : "failed",
-      "statusDetails" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
-      "time" : {
-        "start" : 1655893200237,
-        "stop" : 1655893215959,
-        "duration" : 15722
       }
     } ]
   },
@@ -147,12 +127,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "61411a6de5eb7a56",
+      "uid" : "6c11d98c858ff363",
       "status" : "passed",
       "time" : {
         "start" : 1655883410689,
         "stop" : 1655883437358,
         "duration" : 26669
+      }
+    } ]
+  },
+  "dd62303a33367709456624d6ba4b1a0b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e28e4deb8cfbde6b",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
+      "time" : {
+        "start" : 1655893200237,
+        "stop" : 1655893215959,
+        "duration" : 15722
       }
     } ]
   },
@@ -166,7 +166,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "70cd058ed09e4d9a",
+      "uid" : "5c7f96bd07e8be0b",
       "status" : "passed",
       "time" : {
         "start" : 1655883465571,
@@ -185,7 +185,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "69e8f55f6fbe13b0",
+      "uid" : "416660717673db80",
       "status" : "passed",
       "time" : {
         "start" : 1655883270164,
@@ -204,7 +204,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48cfc6af63e3e99e",
+      "uid" : "64c9e3c7d813565f",
       "status" : "passed",
       "time" : {
         "start" : 1655883190046,

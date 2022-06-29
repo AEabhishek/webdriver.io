@@ -7,7 +7,7 @@
       "name" : "Expect window to have title containing\n                \n                Expected: \"vtiger CRM 5\"\n                Received: \"www.facebook.com\"",
       "children" : [ {
         "name" : "launch app",
-        "uid" : "306255422accd711",
+        "uid" : "8bd42c93d9f2825b",
         "parentUid" : "04e400ca8ba47af9ae2da6eac9961345",
         "status" : "failed",
         "time" : {
@@ -28,7 +28,7 @@
       "name" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
       "children" : [ {
         "name" : "launch the app",
-        "uid" : "d8949856a97a827b",
+        "uid" : "862e54d84e2dd179",
         "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
         "status" : "failed",
         "time" : {
@@ -45,7 +45,7 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "launch the app",
-        "uid" : "9685465186fac22d",
+        "uid" : "e28e4deb8cfbde6b",
         "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
         "status" : "failed",
         "time" : {
@@ -62,7 +62,7 @@
         "parameters" : [ "firefox-101.0.1" ]
       }, {
         "name" : "launch the app",
-        "uid" : "6248d3cb484fc838",
+        "uid" : "f05a2d1104131f5f",
         "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
         "status" : "failed",
         "time" : {
@@ -87,7 +87,7 @@
       "name" : "Can't call elementClear on element with selector \"//iframe[@id='frame1']\" because element wasn't found",
       "children" : [ {
         "name" : "launch app",
-        "uid" : "56300e72f7bee5f",
+        "uid" : "acd093fc747c1d6b",
         "parentUid" : "337a185d9c416a1b5fa6313486972600",
         "status" : "broken",
         "time" : {

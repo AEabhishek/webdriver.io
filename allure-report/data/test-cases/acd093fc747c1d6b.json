@@ -1,0 +1,68 @@
+{
+  "uid" : "acd093fc747c1d6b",
+  "name" : "launch app",
+  "fullName" : "app.launch app",
+  "historyId" : "56275b1fbd33fc954d36565367502ad7",
+  "time" : {
+    "start" : 1655883445394,
+    "stop" : 1655883457699,
+    "duration" : 12305
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call elementClear on element with selector \"//iframe[@id='frame1']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call elementClear on element with selector \"//iframe[@id='frame1']\" because element wasn't found\n                    at implicitWait (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\webdriverio\\build\\utils\\refetchElement.js:29:16\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\webdriverio\\build\\middlewares.js:41:37)\n                    at async Element.wrapCommandFn (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.setValue (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\webdriverio\\build\\commands\\element\\setValue.js:30:5)\n                    at async Element.wrapCommandFn (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\node_modules\\webdriverio\\build\\middlewares.js:24:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "app"
+  }, {
+    "name" : "testClass",
+    "value" : "app"
+  }, {
+    "name" : "testMethod",
+    "value" : "launch app"
+  }, {
+    "name" : "package",
+    "value" : "app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "acd093fc747c1d6b.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

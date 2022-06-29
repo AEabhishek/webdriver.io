@@ -1,0 +1,33 @@
+[
+
+{
+    "username":"admin",
+    "password" :"admin",
+    "compaign_name":"garuda",
+    "compaign_type":"Public Relations",
+    "compaign_status":"Planning",
+    "expt_res":"Excellent",
+    "url" : "http://localhost:8888/",
+    "path":"C:/Users/Abhi Akshay/Desktop/938590-money-heist.jpg",
+    "fname_extension": "Prof.",
+    "lead_source": "Employee",
+    "contact_lastname":"suresh",
+    "organisation_name" : "aran",
+    "document_title" : "vishwaharshmahasangam",
+    "note" : "Sir Isaac Newton PRS (25 December 1642 20 March 1726/27[a]) was an English mathematician, physicist, astronomer, alchemist, theologian, and author (described in his time as a 'natural philosopher') widely recognised as one of the greatest mathematicians and physicists of all time and among the most influential scientists. He was a key figure in the philosophical revolution known as the Enlightenment. His book Philosophiæ Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), first published in 1687, established classical mechanics. Newton also made seminal contributions to optics, and shares credit with German mathematician Gottfried Wilhelm Leibniz for developing infinitesimal calculus. ",
+    "doc_filePath" : "C:/Users/Abhi Akshay/Desktop/data2.xlsx",
+    "product_name" : "mango7890",
+    "product_catogory" : "Hardware",
+    "manufacture_type" : "LexPon Inc.",
+    "unit_type" : "Carton",
+    "productfilepath" : "C:/Users/Abhi Akshay/Desktop/data2.xlsx"
+
+
+
+
+
+
+}
+
+
+]

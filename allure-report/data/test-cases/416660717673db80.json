@@ -1,0 +1,62 @@
+{
+  "uid" : "416660717673db80",
+  "name" : "launch",
+  "fullName" : "vtiger.launch",
+  "historyId" : "570e5797d2ba705b3b4043672109455c",
+  "time" : {
+    "start" : 1655883270164,
+    "stop" : 1655883334398,
+    "duration" : 64234
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "vtiger"
+  }, {
+    "name" : "testClass",
+    "value" : "vtiger"
+  }, {
+    "name" : "testMethod",
+    "value" : "launch"
+  }, {
+    "name" : "package",
+    "value" : "vtiger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "416660717673db80.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

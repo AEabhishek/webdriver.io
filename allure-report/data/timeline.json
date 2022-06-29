@@ -4,8 +4,25 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
+      "name" : "launch the app",
+      "uid" : "f05a2d1104131f5f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655896259914,
+        "stop" : 1655896272525,
+        "duration" : 12611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
       "name" : "launch app",
-      "uid" : "306255422accd711",
+      "uid" : "8bd42c93d9f2825b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
@@ -22,24 +39,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "launch the app",
-      "uid" : "6248d3cb484fc838",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1655896259914,
-        "stop" : 1655896272525,
-        "duration" : 12611
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.53" ]
-    }, {
-      "name" : "launch the app",
-      "uid" : "fafc44c86b6e122d",
+      "uid" : "e3affc93ccad9cb9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
@@ -57,10 +57,136 @@
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "launch the app",
+      "uid" : "f275d957cf4b2136",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883380319,
+        "stop" : 1655883403505,
+        "duration" : 23186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
+  }, {
+    "name" : "0-5",
+    "children" : [ {
+      "name" : "launch the app",
+      "uid" : "cd2896df139087cb",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883360270,
+        "stop" : 1655883374108,
+        "duration" : 13838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "launch",
+      "uid" : "416660717673db80",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883270164,
+        "stop" : 1655883334398,
+        "duration" : 64234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "launch the app",
+      "uid" : "9a2cca2f150497c3",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655883250346,
+        "stop" : 1655883265303,
+        "duration" : 14957
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-9",
+    "children" : [ {
+      "name" : "checkbox",
+      "uid" : "5c7f96bd07e8be0b",
+      "parentUid" : "8b1de0b1b289dc8ec55a123ec93534fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655883465571,
+        "stop" : 1655883465811,
+        "duration" : 240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "8b1de0b1b289dc8ec55a123ec93534fc"
+  }, {
+    "name" : "0-8",
+    "children" : [ {
+      "name" : "launch app",
+      "uid" : "acd093fc747c1d6b",
+      "parentUid" : "81b982ad9e44014ef58d70945daa9dd8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655883445394,
+        "stop" : 1655883457699,
+        "duration" : 12305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "81b982ad9e44014ef58d70945daa9dd8"
+  }, {
     "name" : "0-7",
     "children" : [ {
       "name" : "launch the browser",
-      "uid" : "61411a6de5eb7a56",
+      "uid" : "6c11d98c858ff363",
       "parentUid" : "21aceb05e3618121b78af6a48c646d54",
       "status" : "passed",
       "time" : {
@@ -81,7 +207,7 @@
     "name" : "0-4",
     "children" : [ {
       "name" : "launch the app",
-      "uid" : "d8949856a97a827b",
+      "uid" : "862e54d84e2dd179",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "failed",
       "time" : {
@@ -99,52 +225,10 @@
     } ],
     "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
   }, {
-    "name" : "0-2",
-    "children" : [ {
-      "name" : "launch the app",
-      "uid" : "25f996a2f9d7b00f",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655883250346,
-        "stop" : 1655883265303,
-        "duration" : 14957
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "880a094af3dffab161e2023284569d6f"
-  }, {
-    "name" : "0-6",
-    "children" : [ {
-      "name" : "launch the app",
-      "uid" : "8c22146498767888",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655883380319,
-        "stop" : 1655883403505,
-        "duration" : 23186
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
-  }, {
     "name" : "1-0",
     "children" : [ {
       "name" : "launch the app",
-      "uid" : "9685465186fac22d",
+      "uid" : "e28e4deb8cfbde6b",
       "parentUid" : "5d884c24784638b93056bad95e3212e7",
       "status" : "failed",
       "time" : {
@@ -162,94 +246,10 @@
     } ],
     "uid" : "5d884c24784638b93056bad95e3212e7"
   }, {
-    "name" : "0-8",
-    "children" : [ {
-      "name" : "launch app",
-      "uid" : "56300e72f7bee5f",
-      "parentUid" : "81b982ad9e44014ef58d70945daa9dd8",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655883445394,
-        "stop" : 1655883457699,
-        "duration" : 12305
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "81b982ad9e44014ef58d70945daa9dd8"
-  }, {
-    "name" : "0-3",
-    "children" : [ {
-      "name" : "launch",
-      "uid" : "69e8f55f6fbe13b0",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655883270164,
-        "stop" : 1655883334398,
-        "duration" : 64234
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "b755a79e149728f67460aea38b0710e0"
-  }, {
-    "name" : "0-5",
-    "children" : [ {
-      "name" : "launch the app",
-      "uid" : "1eb2475e3de03122",
-      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655883360270,
-        "stop" : 1655883374108,
-        "duration" : 13838
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "6ea253441b78cd38797e932a74777a9c"
-  }, {
-    "name" : "0-9",
-    "children" : [ {
-      "name" : "checkbox",
-      "uid" : "70cd058ed09e4d9a",
-      "parentUid" : "8b1de0b1b289dc8ec55a123ec93534fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655883465571,
-        "stop" : 1655883465811,
-        "duration" : 240
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "8b1de0b1b289dc8ec55a123ec93534fc"
-  }, {
     "name" : "0-1",
     "children" : [ {
       "name" : "launch app",
-      "uid" : "48cfc6af63e3e99e",
+      "uid" : "64c9e3c7d813565f",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {

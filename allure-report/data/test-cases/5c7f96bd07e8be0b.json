@@ -1,0 +1,62 @@
+{
+  "uid" : "5c7f96bd07e8be0b",
+  "name" : "checkbox",
+  "fullName" : "vtiger.checkbox",
+  "historyId" : "df5500e80c39c669bd7d01ba071c172e",
+  "time" : {
+    "start" : 1655883465571,
+    "stop" : 1655883465811,
+    "duration" : 240
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "vtiger"
+  }, {
+    "name" : "testClass",
+    "value" : "vtiger"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkbox"
+  }, {
+    "name" : "package",
+    "value" : "vtiger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c7f96bd07e8be0b.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

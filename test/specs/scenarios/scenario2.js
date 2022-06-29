@@ -1,6 +1,6 @@
 describe('vtiger',async()=>{
     it('launch the app',(async()=>{
-        await browser.url("http://localhost:8888/index.php")
+        await browser.url("")
         await browser.maximizeWindow()
         var useranme=await browser.$("//input[@name='user_name']")
         await useranme.setValue("admin")
