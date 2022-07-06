@@ -13,7 +13,9 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js"
+        "wdio": "wdio run wdio.conf.js",
+        "compaign":"wdio run ./wdio.conf.js --spec test/specs/vtiger/create_compaign.js",
+        "document" : "wdio run ./wdio.conf.js --spec test/specs/vtiger/create_document.js"
     },
     "dependencies": {
         "chai": "^4.3.6",

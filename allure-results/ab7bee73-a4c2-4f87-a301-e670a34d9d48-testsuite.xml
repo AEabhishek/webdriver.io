@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656500226289' stop='1656500232078'>
+    <name>app</name>
+    <title>app</title>
+    <test-cases>
+        <test-case start='1656500226290' status='passed' stop='1656500230833'>
+            <name>launch</name>
+            <title>launch</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+                <parameter kind='argument' name='browserVersion' value='103.0.5060.53'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='595d36d0-b142-4ea2-a8f2-695b723067e4-attachment.png' type='image/png' size='234163'/>
+                <attachment title='Screenshot' source='e2ab0eec-daab-47da-816f-528e2c6bdb27-attachment.png' type='image/png' size='234135'/>
+            </attachments>
+        </test-case>
+        <test-case start='1656500230833' status='passed' stop='1656500232077'>
+            <name>un,pwd</name>
+            <title>un,pwd</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+                <parameter kind='argument' name='browserVersion' value='103.0.5060.53'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='036f6eaf-8ab4-4c74-ac38-346e24b79739-attachment.png' type='image/png' size='234163'/>
+                <attachment title='Screenshot' source='9d8c31ef-1a55-423b-b929-bd24a5e0291f-attachment.png' type='image/png' size='235536'/>
+                <attachment title='Screenshot' source='cea92889-2266-40fe-ad1a-5937b2c168d0-attachment.png' type='image/png' size='235536'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

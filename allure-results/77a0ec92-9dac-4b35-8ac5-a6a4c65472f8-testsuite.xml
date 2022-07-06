@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656495546481' stop='1656495589993'>
+    <name>vtiger</name>
+    <title>vtiger</title>
+    <test-cases>
+        <test-case start='1656495546483' status='failed' stop='1656495589976'>
+            <name>launch -Smoke</name>
+            <title>launch -Smoke</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+                <parameter kind='argument' name='browserVersion' value='103.0.5060.53'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='56745df9-d1b0-418f-afbb-fe797ac177b0-attachment.png' type='image/png' size='230150'/>
+                <attachment title='Screenshot' source='57cdb589-2b4d-479d-b0af-ce54be50ddf2-attachment.png' type='image/png' size='234135'/>
+                <attachment title='Screenshot' source='676c5af1-247e-4d44-9ae8-91b688e3a58e-attachment.png' type='image/png' size='235536'/>
+                <attachment title='Screenshot' source='3f9f8b0e-75cc-4685-8590-e27fa6efc907-attachment.png' type='image/png' size='235536'/>
+                <attachment title='Screenshot' source='277df109-f036-4717-9b5b-05c42b4a22d2-attachment.png' type='image/png' size='235978'/>
+                <attachment title='Screenshot' source='37b2f6e1-5379-4293-9699-f1033a418b2d-attachment.png' type='image/png' size='235978'/>
+                <attachment title='Screenshot' source='23a75890-323f-4fea-bac7-25bd5baab7b2-attachment.png' type='image/png' size='105336'/>
+                <attachment title='Screenshot' source='66377bde-6591-4e6d-b145-17adf44d12dd-attachment.png' type='image/png' size='159276'/>
+                <attachment title='Screenshot' source='157c3156-8e90-422b-914a-7adc5d8bbd20-attachment.png' type='image/png' size='123820'/>
+                <attachment title='Screenshot' source='c8b404f6-4c4f-4468-8195-4bb2447c841b-attachment.png' type='image/png' size='123820'/>
+                <attachment title='Screenshot' source='44de8075-3b3b-4919-b461-4bd8587e3c0d-attachment.png' type='image/png' size='124453'/>
+                <attachment title='Screenshot' source='4cac7614-1dde-46c6-a521-9c66bfb4baee-attachment.png' type='image/png' size='125440'/>
+                <attachment title='Screenshot' source='6c06a7d7-b12a-445e-acb5-4ae73b040f71-attachment.png' type='image/png' size='125547'/>
+                <attachment title='Screenshot' source='598fdefa-bdce-4935-9266-a2c997766218-attachment.png' type='image/png' size='125766'/>
+                <attachment title='Screenshot' source='614a891a-706f-4ff8-8624-6019a6ad7c60-attachment.png' type='image/png' size='125387'/>
+                <attachment title='Screenshot' source='8750b881-9130-4085-a23f-b202f6b27a5a-attachment.png' type='image/png' size='63847'/>
+                <attachment title='Screenshot' source='a0f212f9-407a-42b9-80c8-f14d695f11c1-attachment.png' type='image/png' size='63858'/>
+                <attachment title='Screenshot' source='dfdc1edc-2acc-45e4-9d79-ac3bc98b8174-attachment.png' type='image/png' size='64045'/>
+                <attachment title='Screenshot' source='938ebdca-370e-45d6-83e2-c0f88cd0c394-attachment.png' type='image/png' size='126257'/>
+                <attachment title='Screenshot' source='2224922e-2225-431d-91d4-168a60bb5725-attachment.png' type='image/png' size='141876'/>
+                <attachment title='Screenshot' source='a1687e6c-d68b-438e-9fac-f25d0ff76291-attachment.png' type='image/png' size='234163'/>
+                <attachment title='Screenshot' source='5ac28ed1-9bf3-4326-99ae-3a45cb3d0741-attachment.png' type='image/png' size='234163'/>
+                <attachment title='Execution video' source='35566ff5-d01a-4da2-8e36-ee4071692ff6-attachment.mp4' type='video/mp4' size='111'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "rgrm"
+                Received: "vtiger CRM 5 - Commercial Open Source CRM"</message>
+                <stack-trace>Error: Expect window to have title containing
+                
+                Expected: "rgrm"
+                Received: "vtiger CRM 5 - Commercial Open Source CRM"
+                    at Context.&lt;anonymous> (C:\Users\Abhi Akshay\Desktop\WebDriver.io\test\specs\vtiger\create_compaign.js:49:29)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

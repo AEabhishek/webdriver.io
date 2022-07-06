@@ -1,0 +1,91 @@
+{
+  "uid" : "d66220bb6823fb04",
+  "name" : "un,pwd",
+  "fullName" : "app.un,pwd",
+  "historyId" : "528d35791c8c21c9f0269676e8c43567",
+  "time" : {
+    "start" : 1656500005921,
+    "stop" : 1656500006984,
+    "duration" : 1063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7d8250760c1b233a",
+      "name" : "Screenshot",
+      "source" : "7d8250760c1b233a.png",
+      "type" : "image/png",
+      "size" : 234135
+    }, {
+      "uid" : "9e31eac9b59e0104",
+      "name" : "Screenshot",
+      "source" : "9e31eac9b59e0104.png",
+      "type" : "image/png",
+      "size" : 235536
+    }, {
+      "uid" : "c3e2fb9c1b3d5425",
+      "name" : "Screenshot",
+      "source" : "c3e2fb9c1b3d5425.png",
+      "type" : "image/png",
+      "size" : 235663
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "app"
+  }, {
+    "name" : "testClass",
+    "value" : "app"
+  }, {
+    "name" : "testMethod",
+    "value" : "un,pwd"
+  }, {
+    "name" : "package",
+    "value" : "app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  }, {
+    "name" : "browserVersion",
+    "value" : "103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d66220bb6823fb04.json",
+  "parameterValues" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
+}

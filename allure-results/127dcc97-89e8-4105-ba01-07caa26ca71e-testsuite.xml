@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656496533780' stop='1656496564039'>
+    <name>vtiger</name>
+    <title>vtiger</title>
+    <test-cases>
+        <test-case start='1656496533781' status='failed' stop='1656496564024'>
+            <name>launch</name>
+            <title>launch</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+                <parameter kind='argument' name='browserVersion' value='103.0.5060.53'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1c975f52-2a59-408b-80fb-940369c54387-attachment.png' type='image/png' size='230150'/>
+                <attachment title='Screenshot' source='d302752f-28b3-45fb-93ce-169334a279ed-attachment.png' type='image/png' size='234135'/>
+                <attachment title='Screenshot' source='a83a70ad-07d8-4c17-8cd3-28d2cc712008-attachment.png' type='image/png' size='234135'/>
+                <attachment title='Screenshot' source='f38666a6-67dd-44d5-92dc-b536755c17f5-attachment.png' type='image/png' size='235536'/>
+                <attachment title='Screenshot' source='4e151118-696a-4254-8494-61746431436c-attachment.png' type='image/png' size='235536'/>
+                <attachment title='Screenshot' source='0ee718e2-b731-4efe-b24d-80b0d964cfc5-attachment.png' type='image/png' size='235978'/>
+                <attachment title='Screenshot' source='3440f0ed-25ea-4d5e-89fd-a4074cffa8e6-attachment.png' type='image/png' size='105364'/>
+                <attachment title='Screenshot' source='8c12381e-41ad-4da5-b9df-d201f2201942-attachment.png' type='image/png' size='159260'/>
+                <attachment title='Screenshot' source='09851a94-8a58-4a18-a166-72d0151dfe33-attachment.png' type='image/png' size='123820'/>
+                <attachment title='Screenshot' source='f233ec1d-765a-4d9d-96a1-5ec1b6f7b595-attachment.png' type='image/png' size='123820'/>
+                <attachment title='Screenshot' source='c8dd0451-791c-4dbe-ad51-f1a6218d84d8-attachment.png' type='image/png' size='124453'/>
+                <attachment title='Screenshot' source='31e2a9b2-1ac1-4ef5-998a-8e3acbeea68a-attachment.png' type='image/png' size='125440'/>
+                <attachment title='Screenshot' source='0852a435-efd9-4dfd-b508-f93d39724d2f-attachment.png' type='image/png' size='125547'/>
+                <attachment title='Screenshot' source='ae909b0c-0a89-4764-8325-d39b55803eb8-attachment.png' type='image/png' size='125766'/>
+                <attachment title='Screenshot' source='e44f39ac-a7f6-4f91-a858-6d9b17bcc868-attachment.png' type='image/png' size='125387'/>
+                <attachment title='Screenshot' source='878a371f-6994-4237-800b-b9fe86fcd1d7-attachment.png' type='image/png' size='63858'/>
+                <attachment title='Execution video' source='c32d84f8-e465-46a5-b98d-28b56ba0a56f-attachment.mp4' type='video/mp4' size='104'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "compaigns"
+                Received: ""</message>
+                <stack-trace>Error: Expect window to have title containing
+                
+                Expected: "compaigns"
+                Received: ""
+                    at Context.&lt;anonymous> (C:\Users\Abhi Akshay\Desktop\WebDriver.io\test\specs\vtiger\create_compaign.js:37:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,70 +1,26 @@
 {
-  "total" : 6,
+  "total" : 2,
   "items" : [ {
-    "uid" : "a25103e90a7e693560e2f02b7f95e70d",
-    "name" : "jquery_app",
+    "uid" : "bffa13c2592819f4846ca9d6906e11d3",
+    "name" : "vtiger",
     "statistic" : {
-      "failed" : 3,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
-    }
-  }, {
-    "uid" : "8b70781bea5fe21d7c2b4d40f6ac3fed",
-    "name" : "fb",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
     "uid" : "6287246568764e7b5a5f3b1a6a59f1ab",
     "name" : "app",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "bffa13c2592819f4846ca9d6906e11d3",
-    "name" : "vtiger",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "a56204f41d544e456b6824e7ec31dd85",
-    "name" : "amazon",
-    "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "24e3e23fe7d723bc7ce5002cdff9f9e6",
-    "name" : "frames",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   } ]
 }

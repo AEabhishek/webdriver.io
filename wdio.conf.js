@@ -1,5 +1,11 @@
 
 const video = require('wdio-video-reporter');
+const loginpage = require('./test/pageobjects/loginpage')
+const sign_out_page = require ('./test/pageobjects/sign_out')
+const fs= require('fs')
+const credentials = JSON.parse(fs.readFileSync('test/testdata/propertFile.json'))
+
+
 
 exports.config = {
     //
@@ -26,17 +32,18 @@ exports.config = {
     //
     specs: [
         // './test/specs/**/*.js',
-        // 'test/specs/demo.js',
+        // // 'test/specs/demo.js',
         // 'test/specs/create_document.js',
         // 'test/specs/create_product.js',
-        // 'test/specs/create_compaign.js',
+        'test/specs/vtiger/create_compaign.js'
         // 'test/specs/vtiger/create_compaign.js',
         // 'test/specs/scenarion1.js',
-        'test/specs/scenarios/scenario2.js',
-        'test/specs/scenarios/scenario3.js',
-        'test/specs/scenarios/scenario4.js'
+        // 'test/specs/scenarios/scenario2.js',
+        // 'test/specs/scenarios/scenario3.js',
+        // 'test/specs/scenarios/scenario4.js',
         // 'test/specs/scenario5.js',
-        // './test/specs/alert.js'
+        // './test/specs/alert.js',
+        // 'test/specs/vtiger/demo99.js'
     ],
     // suites: {
     //     smokesuite : ['test/specs/create_compaign.js','test/specs/create_product.js'],
@@ -170,20 +177,25 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-//     reporters: ['spec'],
+    reporters: ['spec'],
 
-// reporters: [['allure', {
-//     outputDir: 'allure-results',
-//     disableWebdriverStepsReporting: true,
-//     disableWebdriverScreenshotsReporting: false,
-// }]],
+reporters: [['allure', {
+    outputDir: 'allure-results',
+    disableWebdriverStepsReporting: true,
+    disableWebdriverScreenshotsReporting: false,
+}]],
 
-reporters: [
-    [video, {
-      saveAllVideos: false,       // If true, also saves videos for successful test cases
-      videoSlowdownMultiplier: 5, // Higher to get slower videos, lower for faster videos [Value 1-100]
-    }],
-  ],
+// reporters: [
+//     ['allure', {
+//             outputDir: 'allure-results',
+//             disableWebdriverStepsReporting: true,
+//             disableWebdriverScreenshotsReporting: false,
+//         }],
+//     [video, {
+//       saveAllVideos: false,       // If true, also saves videos for successful test cases
+//       videoSlowdownMultiplier: 5, // Higher to get slower videos, lower for faster videos [Value 1-100]
+//     }],
+//   ],
 
     
     //
@@ -259,12 +271,24 @@ reporters: [
      * @param {Object} suite suite details
      */
     // beforeSuite: function (suite) {
+    //     credentials.forEach(async({username,password})=>{
+    //         username1=username
+    //         password1=password
+
+    //     })
     // },
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    // beforeTest: function (test, context) {
-    // },
+   
+    beforeTest: async function (test, context) {
+        await loginpage.open("")
+        await browser.maximizeWindow()
+        await loginpage.login(credentials.at().username,credentials.at().password)
+
+
+  
+    },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
@@ -291,6 +315,9 @@ reporters: [
         if (error) {
             await browser.takeScreenshot();
           }
+
+          await sign_out_page.sign_out()
+
     },
 
 

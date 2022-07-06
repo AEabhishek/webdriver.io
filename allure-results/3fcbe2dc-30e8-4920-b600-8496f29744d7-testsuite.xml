@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656500661246' stop='1656500698091'>
+    <name>app</name>
+    <title>app</title>
+    <test-cases>
+        <test-case start='1656500661246' status='passed' stop='1656500665643'>
+            <name>launch</name>
+            <title>launch</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+                <parameter kind='argument' name='browserVersion' value='103.0.5060.53'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c8f3a664-d77a-49aa-8c78-06ad37dc4da5-attachment.png' type='image/png' size='234163'/>
+                <attachment title='Screenshot' source='40cbba55-bd23-41d9-9fc2-17f6cef123be-attachment.png' type='image/png' size='234163'/>
+            </attachments>
+        </test-case>
+        <test-case start='1656500665644' status='failed' stop='1656500698084'>
+            <name>un,pwd</name>
+            <title>un,pwd</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+                <parameter kind='argument' name='browserVersion' value='103.0.5060.53'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3565a522-13dc-4035-8d0a-aa86958f0a10-attachment.png' type='image/png' size='234163'/>
+                <attachment title='Screenshot' source='21dff2f9-2109-406f-9468-29d01cf947fe-attachment.png' type='image/png' size='246502'/>
+                <attachment title='Screenshot' source='cbd40aa6-14b7-4387-aeb7-4c8abfa6a048-attachment.png' type='image/png' size='246502'/>
+                <attachment title='Screenshot' source='892d08b8-bdd7-4b3d-8c92-429fef2c4fbb-attachment.png' type='image/png' size='246479'/>
+                <attachment title='Screenshot' source='f1cef993-9784-4df3-94f0-d339625b529d-attachment.png' type='image/png' size='246726'/>
+                <attachment title='Screenshot' source='ee13d11a-594e-4724-bf87-0f687b108bf4-attachment.png' type='image/png' size='246726'/>
+                <attachment title='Screenshot' source='2f238db1-749f-4bb7-ae7e-7e2b304a6f6b-attachment.png' type='image/png' size='248561'/>
+                <attachment title='Screenshot' source='24bd591d-75fa-4cfd-8b7b-6343ff306141-attachment.png' type='image/png' size='245950'/>
+                <attachment title='Screenshot' source='0acb0e60-2aae-4c01-a472-b1a87bb5209a-attachment.png' type='image/png' size='245950'/>
+                <attachment title='Screenshot' source='c34e2a2c-c911-49b1-9680-7b835ac0302f-attachment.png' type='image/png' size='105459'/>
+                <attachment title='Screenshot' source='e08e022c-d704-4cd8-ab6e-472e5acf418a-attachment.png' type='image/png' size='105336'/>
+                <attachment title='Screenshot' source='06114f05-2d3d-4291-8087-3627f6a37552-attachment.png' type='image/png' size='126725'/>
+                <attachment title='Screenshot' source='405e05fc-fa2c-4213-8c4e-bdbafdc44116-attachment.png' type='image/png' size='127428'/>
+                <attachment title='Screenshot' source='e4400031-973c-48eb-8bee-0f9f470229c8-attachment.png' type='image/png' size='127428'/>
+                <attachment title='Screenshot' source='f03e7958-8a23-4157-930f-ba4f3956e2bc-attachment.png' type='image/png' size='127428'/>
+                <attachment title='Execution video' source='b72a8171-0684-4ded-8137-d3c9731c2894-attachment.mp4' type='video/mp4' size='114'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "grame"
+                Received: "Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM"</message>
+                <stack-trace>Error: Expect window to have title containing
+                
+                Expected: "grame"
+                Received: "Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM"
+                    at Context.&lt;anonymous> (C:\Users\Abhi Akshay\Desktop\WebDriver.io\test\specs\vtiger\demo99.js:22:31)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

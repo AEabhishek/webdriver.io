@@ -1,0 +1,230 @@
+{
+  "uid" : "a91267f66c1228ff",
+  "name" : "launch -Smoke",
+  "fullName" : "vtiger.launch -Smoke",
+  "historyId" : "3ba80df86f00525af5dc614e8d517eec",
+  "time" : {
+    "start" : 1656495859434,
+    "stop" : 1656495900016,
+    "duration" : 40582
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have title containing\n                \n                Expected: \"crm\"\n                Received: \"vtiger CRM 5 - Commercial Open Source CRM\"",
+  "statusTrace" : "Error: Expect window to have title containing\n                \n                Expected: \"crm\"\n                Received: \"vtiger CRM 5 - Commercial Open Source CRM\"\n                    at Context.<anonymous> (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\test\\specs\\vtiger\\create_compaign.js:49:29)\n                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have title containing\n                \n                Expected: \"crm\"\n                Received: \"vtiger CRM 5 - Commercial Open Source CRM\"",
+    "statusTrace" : "Error: Expect window to have title containing\n                \n                Expected: \"crm\"\n                Received: \"vtiger CRM 5 - Commercial Open Source CRM\"\n                    at Context.<anonymous> (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\test\\specs\\vtiger\\create_compaign.js:49:29)\n                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9f92310e6f9f55d8",
+      "name" : "Screenshot",
+      "source" : "9f92310e6f9f55d8.png",
+      "type" : "image/png",
+      "size" : 230150
+    }, {
+      "uid" : "5f7cea037e226dbd",
+      "name" : "Screenshot",
+      "source" : "5f7cea037e226dbd.png",
+      "type" : "image/png",
+      "size" : 234135
+    }, {
+      "uid" : "42e5d00f7d5d3d60",
+      "name" : "Screenshot",
+      "source" : "42e5d00f7d5d3d60.png",
+      "type" : "image/png",
+      "size" : 235536
+    }, {
+      "uid" : "b0d87eae3ab2cce8",
+      "name" : "Screenshot",
+      "source" : "b0d87eae3ab2cce8.png",
+      "type" : "image/png",
+      "size" : 235536
+    }, {
+      "uid" : "4cfb112d1893374e",
+      "name" : "Screenshot",
+      "source" : "4cfb112d1893374e.png",
+      "type" : "image/png",
+      "size" : 235520
+    }, {
+      "uid" : "a9bc0b5082a790bb",
+      "name" : "Screenshot",
+      "source" : "a9bc0b5082a790bb.png",
+      "type" : "image/png",
+      "size" : 235978
+    }, {
+      "uid" : "c92fd8fd418e264",
+      "name" : "Screenshot",
+      "source" : "c92fd8fd418e264.png",
+      "type" : "image/png",
+      "size" : 105379
+    }, {
+      "uid" : "c7ac432e23de1b65",
+      "name" : "Screenshot",
+      "source" : "c7ac432e23de1b65.png",
+      "type" : "image/png",
+      "size" : 159131
+    }, {
+      "uid" : "f643d70fba410adf",
+      "name" : "Screenshot",
+      "source" : "f643d70fba410adf.png",
+      "type" : "image/png",
+      "size" : 123820
+    }, {
+      "uid" : "af34b67abfc2858b",
+      "name" : "Screenshot",
+      "source" : "af34b67abfc2858b.png",
+      "type" : "image/png",
+      "size" : 123820
+    }, {
+      "uid" : "b356d70abf505f42",
+      "name" : "Screenshot",
+      "source" : "b356d70abf505f42.png",
+      "type" : "image/png",
+      "size" : 124453
+    }, {
+      "uid" : "de61573d60d175de",
+      "name" : "Screenshot",
+      "source" : "de61573d60d175de.png",
+      "type" : "image/png",
+      "size" : 125440
+    }, {
+      "uid" : "2fdfc05e61510d64",
+      "name" : "Screenshot",
+      "source" : "2fdfc05e61510d64.png",
+      "type" : "image/png",
+      "size" : 125547
+    }, {
+      "uid" : "5b6c97ae424e6576",
+      "name" : "Screenshot",
+      "source" : "5b6c97ae424e6576.png",
+      "type" : "image/png",
+      "size" : 125766
+    }, {
+      "uid" : "9cca7a30d6ae4d9f",
+      "name" : "Screenshot",
+      "source" : "9cca7a30d6ae4d9f.png",
+      "type" : "image/png",
+      "size" : 125387
+    }, {
+      "uid" : "bb552c8fe23468cb",
+      "name" : "Screenshot",
+      "source" : "bb552c8fe23468cb.png",
+      "type" : "image/png",
+      "size" : 63847
+    }, {
+      "uid" : "589eeb7519f5e3df",
+      "name" : "Screenshot",
+      "source" : "589eeb7519f5e3df.png",
+      "type" : "image/png",
+      "size" : 63847
+    }, {
+      "uid" : "c4ad2a6d543455c3",
+      "name" : "Screenshot",
+      "source" : "c4ad2a6d543455c3.png",
+      "type" : "image/png",
+      "size" : 64097
+    }, {
+      "uid" : "a5e67770940cd5ee",
+      "name" : "Screenshot",
+      "source" : "a5e67770940cd5ee.png",
+      "type" : "image/png",
+      "size" : 126257
+    }, {
+      "uid" : "8eb2b1ed92c3ff8",
+      "name" : "Screenshot",
+      "source" : "8eb2b1ed92c3ff8.png",
+      "type" : "image/png",
+      "size" : 141545
+    }, {
+      "uid" : "7e6af0a05fb8ac75",
+      "name" : "Screenshot",
+      "source" : "7e6af0a05fb8ac75.png",
+      "type" : "image/png",
+      "size" : 234163
+    }, {
+      "uid" : "b2cad3bdf2f65569",
+      "name" : "Screenshot",
+      "source" : "b2cad3bdf2f65569.png",
+      "type" : "image/png",
+      "size" : 234163
+    }, {
+      "uid" : "657e17d8950b08d",
+      "name" : "Execution video",
+      "source" : "657e17d8950b08d.mp4",
+      "type" : "video/mp4",
+      "size" : 182187
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 23,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "vtiger"
+  }, {
+    "name" : "testClass",
+    "value" : "vtiger"
+  }, {
+    "name" : "testMethod",
+    "value" : "launch -Smoke"
+  }, {
+    "name" : "package",
+    "value" : "vtiger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  }, {
+    "name" : "browserVersion",
+    "value" : "103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4662866458076e11",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title containing\n                \n                Expected: \"rgrm\"\n                Received: \"vtiger CRM 5 - Commercial Open Source CRM\"",
+      "time" : {
+        "start" : 1656495546483,
+        "stop" : 1656495589976,
+        "duration" : 43493
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a91267f66c1228ff.json",
+  "parameterValues" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
+}

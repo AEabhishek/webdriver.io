@@ -1,0 +1,85 @@
+{
+  "uid" : "b690bf36f9b6f030",
+  "name" : "launch",
+  "fullName" : "app.launch",
+  "historyId" : "faab188340f50a0f4fe8bad7d8d9f75c",
+  "time" : {
+    "start" : 1656500310910,
+    "stop" : 1656500314230,
+    "duration" : 3320
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "532fdd7f3602e925",
+      "name" : "Screenshot",
+      "source" : "532fdd7f3602e925.png",
+      "type" : "image/png",
+      "size" : 234163
+    }, {
+      "uid" : "488990571a9043eb",
+      "name" : "Screenshot",
+      "source" : "488990571a9043eb.png",
+      "type" : "image/png",
+      "size" : 234163
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "app"
+  }, {
+    "name" : "testClass",
+    "value" : "app"
+  }, {
+    "name" : "testMethod",
+    "value" : "launch"
+  }, {
+    "name" : "package",
+    "value" : "app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  }, {
+    "name" : "browserVersion",
+    "value" : "103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b690bf36f9b6f030.json",
+  "parameterValues" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
+}

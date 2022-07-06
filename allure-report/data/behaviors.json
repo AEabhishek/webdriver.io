@@ -2,82 +2,31 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "launch app",
-    "uid" : "8bd42c93d9f2825b",
+    "name" : "launch -Smoke",
+    "uid" : "a91267f66c1228ff",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1655883125745,
-      "stop" : 1655883159535,
-      "duration" : 33790
+      "start" : 1656495859434,
+      "stop" : 1656495900016,
+      "duration" : 40582
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 1,
     "retriesStatusChange" : false,
-    "parameters" : [ "chrome-102.0.5005.115" ]
-  }, {
-    "name" : "launch app",
-    "uid" : "64c9e3c7d813565f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1655883190046,
-      "stop" : 1655883245097,
-      "duration" : 55051
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-102.0.5005.115" ]
+    "parameters" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
   }, {
     "name" : "launch",
-    "uid" : "416660717673db80",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1655883270164,
-      "stop" : 1655883334398,
-      "duration" : 64234
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-102.0.5005.115" ]
-  }, {
-    "name" : "launch the app",
-    "uid" : "862e54d84e2dd179",
+    "uid" : "a0f1d8d08accdc7d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1655883340347,
-      "stop" : 1655883352510,
-      "duration" : 12163
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-102.0.5005.115" ]
-  }, {
-    "name" : "launch the app",
-    "uid" : "cd2896df139087cb",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1655883360270,
-      "stop" : 1655883374108,
-      "duration" : 13838
+      "start" : 1656496533781,
+      "stop" : 1656496564024,
+      "duration" : 30243
     },
     "flaky" : false,
     "newFailed" : false,
@@ -85,108 +34,40 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ "chrome-102.0.5005.115" ]
+    "parameters" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
   }, {
-    "name" : "launch the app",
-    "uid" : "f275d957cf4b2136",
+    "name" : "launch",
+    "uid" : "d6f4fa7e5e6cb37c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1655883380319,
-      "stop" : 1655883403505,
-      "duration" : 23186
+      "start" : 1656500661246,
+      "stop" : 1656500665643,
+      "duration" : 4397
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
+  }, {
+    "name" : "un,pwd",
+    "uid" : "5b7b39d5156495a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1656500665644,
+      "stop" : 1656500698084,
+      "duration" : 32440
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
     "retriesStatusChange" : true,
-    "parameters" : [ "chrome-102.0.5005.115" ]
-  }, {
-    "name" : "launch the browser",
-    "uid" : "6c11d98c858ff363",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1655883410689,
-      "stop" : 1655883437358,
-      "duration" : 26669
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-102.0.5005.115" ]
-  }, {
-    "name" : "launch app",
-    "uid" : "acd093fc747c1d6b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1655883445394,
-      "stop" : 1655883457699,
-      "duration" : 12305
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-102.0.5005.115" ]
-  }, {
-    "name" : "checkbox",
-    "uid" : "5c7f96bd07e8be0b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1655883465571,
-      "stop" : 1655883465811,
-      "duration" : 240
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-102.0.5005.115" ]
-  }, {
-    "name" : "launch the app",
-    "uid" : "e28e4deb8cfbde6b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1655893200237,
-      "stop" : 1655893215959,
-      "duration" : 15722
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "firefox-101.0.1" ]
-  }, {
-    "name" : "launch the app",
-    "uid" : "f05a2d1104131f5f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1655896259914,
-      "stop" : 1655896272525,
-      "duration" : 12611
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.53" ]
+    "parameters" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
   } ]
 }

@@ -1,0 +1,185 @@
+{
+  "uid" : "a0f1d8d08accdc7d",
+  "name" : "launch",
+  "fullName" : "vtiger.launch",
+  "historyId" : "d87675182fb1824b269b9ff3655a26d0",
+  "time" : {
+    "start" : 1656496533781,
+    "stop" : 1656496564024,
+    "duration" : 30243
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have title containing\n                \n                Expected: \"compaigns\"\n                Received: \"\"",
+  "statusTrace" : "Error: Expect window to have title containing\n                \n                Expected: \"compaigns\"\n                Received: \"\"\n                    at Context.<anonymous> (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\test\\specs\\vtiger\\create_compaign.js:37:30)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have title containing\n                \n                Expected: \"compaigns\"\n                Received: \"\"",
+    "statusTrace" : "Error: Expect window to have title containing\n                \n                Expected: \"compaigns\"\n                Received: \"\"\n                    at Context.<anonymous> (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\test\\specs\\vtiger\\create_compaign.js:37:30)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e595332ebc7dbab",
+      "name" : "Screenshot",
+      "source" : "7e595332ebc7dbab.png",
+      "type" : "image/png",
+      "size" : 230150
+    }, {
+      "uid" : "57c78405d9fa9125",
+      "name" : "Screenshot",
+      "source" : "57c78405d9fa9125.png",
+      "type" : "image/png",
+      "size" : 234135
+    }, {
+      "uid" : "e91b587be1a65523",
+      "name" : "Screenshot",
+      "source" : "e91b587be1a65523.png",
+      "type" : "image/png",
+      "size" : 234135
+    }, {
+      "uid" : "940c42073d8f0d9",
+      "name" : "Screenshot",
+      "source" : "940c42073d8f0d9.png",
+      "type" : "image/png",
+      "size" : 235536
+    }, {
+      "uid" : "5eabfe6226ae47ec",
+      "name" : "Screenshot",
+      "source" : "5eabfe6226ae47ec.png",
+      "type" : "image/png",
+      "size" : 235536
+    }, {
+      "uid" : "af9f6cc387a12087",
+      "name" : "Screenshot",
+      "source" : "af9f6cc387a12087.png",
+      "type" : "image/png",
+      "size" : 235978
+    }, {
+      "uid" : "eae1a23bf131db9",
+      "name" : "Screenshot",
+      "source" : "eae1a23bf131db9.png",
+      "type" : "image/png",
+      "size" : 105364
+    }, {
+      "uid" : "68a1ffa02761b41c",
+      "name" : "Screenshot",
+      "source" : "68a1ffa02761b41c.png",
+      "type" : "image/png",
+      "size" : 159260
+    }, {
+      "uid" : "c9be6c95d14a29ba",
+      "name" : "Screenshot",
+      "source" : "c9be6c95d14a29ba.png",
+      "type" : "image/png",
+      "size" : 123820
+    }, {
+      "uid" : "332c23bb1b71ba14",
+      "name" : "Screenshot",
+      "source" : "332c23bb1b71ba14.png",
+      "type" : "image/png",
+      "size" : 123820
+    }, {
+      "uid" : "217ea3944159f0a2",
+      "name" : "Screenshot",
+      "source" : "217ea3944159f0a2.png",
+      "type" : "image/png",
+      "size" : 124453
+    }, {
+      "uid" : "414648d81fc30b32",
+      "name" : "Screenshot",
+      "source" : "414648d81fc30b32.png",
+      "type" : "image/png",
+      "size" : 125440
+    }, {
+      "uid" : "b6229f250ce46e1b",
+      "name" : "Screenshot",
+      "source" : "b6229f250ce46e1b.png",
+      "type" : "image/png",
+      "size" : 125547
+    }, {
+      "uid" : "9ac4d5117943a24d",
+      "name" : "Screenshot",
+      "source" : "9ac4d5117943a24d.png",
+      "type" : "image/png",
+      "size" : 125766
+    }, {
+      "uid" : "b9d9abdfab69cffa",
+      "name" : "Screenshot",
+      "source" : "b9d9abdfab69cffa.png",
+      "type" : "image/png",
+      "size" : 125387
+    }, {
+      "uid" : "b9b15088735a3f08",
+      "name" : "Screenshot",
+      "source" : "b9b15088735a3f08.png",
+      "type" : "image/png",
+      "size" : 63858
+    }, {
+      "uid" : "2740e1b90d14513c",
+      "name" : "Execution video",
+      "source" : "2740e1b90d14513c.mp4",
+      "type" : "video/mp4",
+      "size" : 120177
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 17,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "vtiger"
+  }, {
+    "name" : "testClass",
+    "value" : "vtiger"
+  }, {
+    "name" : "testMethod",
+    "value" : "launch"
+  }, {
+    "name" : "package",
+    "value" : "vtiger"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  }, {
+    "name" : "browserVersion",
+    "value" : "103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a0f1d8d08accdc7d.json",
+  "parameterValues" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
+}

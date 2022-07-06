@@ -1,0 +1,237 @@
+{
+  "uid" : "5b7b39d5156495a2",
+  "name" : "un,pwd",
+  "fullName" : "app.un,pwd",
+  "historyId" : "528d35791c8c21c9f0269676e8c43567",
+  "time" : {
+    "start" : 1656500665644,
+    "stop" : 1656500698084,
+    "duration" : 32440
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have title containing\n                \n                Expected: \"grame\"\n                Received: \"Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM\"",
+  "statusTrace" : "Error: Expect window to have title containing\n                \n                Expected: \"grame\"\n                Received: \"Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM\"\n                    at Context.<anonymous> (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\test\\specs\\vtiger\\demo99.js:22:31)\n                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have title containing\n                \n                Expected: \"grame\"\n                Received: \"Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM\"",
+    "statusTrace" : "Error: Expect window to have title containing\n                \n                Expected: \"grame\"\n                Received: \"Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM\"\n                    at Context.<anonymous> (C:\\Users\\Abhi Akshay\\Desktop\\WebDriver.io\\test\\specs\\vtiger\\demo99.js:22:31)\n                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2c8da64f598947ad",
+      "name" : "Screenshot",
+      "source" : "2c8da64f598947ad.png",
+      "type" : "image/png",
+      "size" : 234163
+    }, {
+      "uid" : "71848029399970ba",
+      "name" : "Screenshot",
+      "source" : "71848029399970ba.png",
+      "type" : "image/png",
+      "size" : 246502
+    }, {
+      "uid" : "b00d687035ab893d",
+      "name" : "Screenshot",
+      "source" : "b00d687035ab893d.png",
+      "type" : "image/png",
+      "size" : 246502
+    }, {
+      "uid" : "86041b8f82b722a8",
+      "name" : "Screenshot",
+      "source" : "86041b8f82b722a8.png",
+      "type" : "image/png",
+      "size" : 246479
+    }, {
+      "uid" : "297b2c8abb709188",
+      "name" : "Screenshot",
+      "source" : "297b2c8abb709188.png",
+      "type" : "image/png",
+      "size" : 246726
+    }, {
+      "uid" : "d950fbd361ea72ac",
+      "name" : "Screenshot",
+      "source" : "d950fbd361ea72ac.png",
+      "type" : "image/png",
+      "size" : 246726
+    }, {
+      "uid" : "2b34625b55f7f67",
+      "name" : "Screenshot",
+      "source" : "2b34625b55f7f67.png",
+      "type" : "image/png",
+      "size" : 248561
+    }, {
+      "uid" : "5dcc89c4d47642e8",
+      "name" : "Screenshot",
+      "source" : "5dcc89c4d47642e8.png",
+      "type" : "image/png",
+      "size" : 245950
+    }, {
+      "uid" : "10e71e1b15b00731",
+      "name" : "Screenshot",
+      "source" : "10e71e1b15b00731.png",
+      "type" : "image/png",
+      "size" : 245950
+    }, {
+      "uid" : "dd55d4879705b445",
+      "name" : "Screenshot",
+      "source" : "dd55d4879705b445.png",
+      "type" : "image/png",
+      "size" : 105459
+    }, {
+      "uid" : "af87dac3d1cb98ca",
+      "name" : "Screenshot",
+      "source" : "af87dac3d1cb98ca.png",
+      "type" : "image/png",
+      "size" : 105336
+    }, {
+      "uid" : "53628f1d318796ad",
+      "name" : "Screenshot",
+      "source" : "53628f1d318796ad.png",
+      "type" : "image/png",
+      "size" : 126725
+    }, {
+      "uid" : "1936852549f05520",
+      "name" : "Screenshot",
+      "source" : "1936852549f05520.png",
+      "type" : "image/png",
+      "size" : 127428
+    }, {
+      "uid" : "8a0e467638285a89",
+      "name" : "Screenshot",
+      "source" : "8a0e467638285a89.png",
+      "type" : "image/png",
+      "size" : 127428
+    }, {
+      "uid" : "5246a2ad81b4b088",
+      "name" : "Screenshot",
+      "source" : "5246a2ad81b4b088.png",
+      "type" : "image/png",
+      "size" : 127428
+    }, {
+      "uid" : "f04903f3a0ed19d1",
+      "name" : "Execution video",
+      "source" : "f04903f3a0ed19d1.mp4",
+      "type" : "video/mp4",
+      "size" : 24049
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 16,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "app"
+  }, {
+    "name" : "testClass",
+    "value" : "app"
+  }, {
+    "name" : "testMethod",
+    "value" : "un,pwd"
+  }, {
+    "name" : "package",
+    "value" : "app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  }, {
+    "name" : "browserVersion",
+    "value" : "103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5e039c8da66f00e8",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title containing\n                \n                Expected: \"grame\"\n                Received: \"vtiger CRM 5 - Commercial Open Source CRM\"",
+      "time" : {
+        "start" : 1656500484122,
+        "stop" : 1656500516272,
+        "duration" : 32150
+      }
+    }, {
+      "uid" : "cd94d820ff40c7d",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title containing\n                \n                Expected: \"grame\"\n                Received: \"Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM\"",
+      "time" : {
+        "start" : 1656500314231,
+        "stop" : 1656500346776,
+        "duration" : 32545
+      }
+    }, {
+      "uid" : "2a8c6e89127a0a22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656500230833,
+        "stop" : 1656500232077,
+        "duration" : 1244
+      }
+    }, {
+      "uid" : "557da34ad099e21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656500144443,
+        "stop" : 1656500144871,
+        "duration" : 428
+      }
+    }, {
+      "uid" : "d66220bb6823fb04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656500005921,
+        "stop" : 1656500006984,
+        "duration" : 1063
+      }
+    }, {
+      "uid" : "7ba7dcee862a3679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656499814258,
+        "stop" : 1656499815416,
+        "duration" : 1158
+      }
+    }, {
+      "uid" : "b1533b95803ac447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656499734124,
+        "stop" : 1656499736474,
+        "duration" : 2350
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b7b39d5156495a2.json",
+  "parameterValues" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
+}

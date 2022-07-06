@@ -4,37 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Expect window to have title containing\n                \n                Expected: \"vtiger CRM 5\"\n                Received: \"www.facebook.com\"",
+      "name" : "Expect window to have title containing\n                \n                Expected: \"crm\"\n                Received: \"vtiger CRM 5 - Commercial Open Source CRM\"",
       "children" : [ {
-        "name" : "launch app",
-        "uid" : "8bd42c93d9f2825b",
-        "parentUid" : "04e400ca8ba47af9ae2da6eac9961345",
+        "name" : "launch -Smoke",
+        "uid" : "a91267f66c1228ff",
+        "parentUid" : "b2404a1ca9dda092e49e21e3ac661598",
         "status" : "failed",
         "time" : {
-          "start" : 1655883125745,
-          "stop" : 1655883159535,
-          "duration" : 33790
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "04e400ca8ba47af9ae2da6eac9961345"
-    }, {
-      "name" : "Expect window to have url\n                \n                Expected: \"C\"\n                Received: \"https://demos.jquerymobile.com/1.4.5/checkboxradio-radio/\"",
-      "children" : [ {
-        "name" : "launch the app",
-        "uid" : "862e54d84e2dd179",
-        "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655883340347,
-          "stop" : 1655883352510,
-          "duration" : 12163
+          "start" : 1656495859434,
+          "stop" : 1656495900016,
+          "duration" : 40582
         },
         "flaky" : false,
         "newFailed" : false,
@@ -42,69 +21,52 @@
         "newBroken" : false,
         "retriesCount" : 1,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "launch the app",
-        "uid" : "e28e4deb8cfbde6b",
-        "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655893200237,
-          "stop" : 1655893215959,
-          "duration" : 15722
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "firefox-101.0.1" ]
-      }, {
-        "name" : "launch the app",
-        "uid" : "f05a2d1104131f5f",
-        "parentUid" : "e5e42f8684437581098c844b5ec2cf04",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655896259914,
-          "stop" : 1655896272525,
-          "duration" : 12611
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
       } ],
-      "uid" : "e5e42f8684437581098c844b5ec2cf04"
+      "uid" : "b2404a1ca9dda092e49e21e3ac661598"
+    }, {
+      "name" : "Expect window to have title containing\n                \n                Expected: \"compaigns\"\n                Received: \"\"",
+      "children" : [ {
+        "name" : "launch",
+        "uid" : "a0f1d8d08accdc7d",
+        "parentUid" : "af148dd7c069e779afe129c1d5d8cc17",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656496533781,
+          "stop" : 1656496564024,
+          "duration" : 30243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
+      } ],
+      "uid" : "af148dd7c069e779afe129c1d5d8cc17"
+    }, {
+      "name" : "Expect window to have title containing\n                \n                Expected: \"grame\"\n                Received: \"Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM\"",
+      "children" : [ {
+        "name" : "un,pwd",
+        "uid" : "5b7b39d5156495a2",
+        "parentUid" : "7b4e35b4413d0bcfd6f689e6fee4746e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656500665644,
+          "stop" : 1656500698084,
+          "duration" : 32440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.53", "103.0.5060.53" ]
+      } ],
+      "uid" : "7b4e35b4413d0bcfd6f689e6fee4746e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Can't call elementClear on element with selector \"//iframe[@id='frame1']\" because element wasn't found",
-      "children" : [ {
-        "name" : "launch app",
-        "uid" : "acd093fc747c1d6b",
-        "parentUid" : "337a185d9c416a1b5fa6313486972600",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655883445394,
-          "stop" : 1655883457699,
-          "duration" : 12305
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "337a185d9c416a1b5fa6313486972600"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
