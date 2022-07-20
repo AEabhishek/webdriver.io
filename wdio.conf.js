@@ -35,7 +35,7 @@ exports.config = {
         // // 'test/specs/demo.js',
         // 'test/specs/create_document.js',
         // 'test/specs/create_product.js',
-        'test/specs/vtiger/create_compaign.js'
+        // 'test/specs/vtiger/create_compaign.js'
         // 'test/specs/vtiger/create_compaign.js',
         // 'test/specs/scenarion1.js',
         // 'test/specs/scenarios/scenario2.js',
@@ -43,6 +43,8 @@ exports.config = {
         // 'test/specs/scenarios/scenario4.js',
         // 'test/specs/scenario5.js',
         // './test/specs/alert.js',
+        // Array(3).fill('test/specs/scenarios/scenarion1.js')//it will used to run the same script on multiple times
+      
         // 'test/specs/vtiger/demo99.js'
     ],
     // suites: {
@@ -139,7 +141,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost:8888/index.php',
+    // baseUrl: 'http://localhost:8888/index.php',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -281,14 +283,14 @@ reporters: [['allure', {
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
    
-    beforeTest: async function (test, context) {
-        await loginpage.open("")
-        await browser.maximizeWindow()
-        await loginpage.login(credentials.at().username,credentials.at().password)
+    // beforeTest: async function (test, context) {
+    //     await loginpage.open("")
+    //     await browser.maximizeWindow()
+    //     await loginpage.login(credentials.at().username,credentials.at().password)
 
 
   
-    },
+    // },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
@@ -311,14 +313,14 @@ reporters: [['allure', {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
-        if (error) {
-            await browser.takeScreenshot();
-          }
+    // afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+    //     if (error) {
+    //         await browser.takeScreenshot();
+    //       }
 
-          await sign_out_page.sign_out()
+    //       await sign_out_page.sign_out()
 
-    },
+    // },
 
 
     /**

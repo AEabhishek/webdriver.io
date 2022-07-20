@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657091864287' stop='1657092075695'>
+    <name>amazon</name>
+    <title>amazon</title>
+    <test-cases>
+        <test-case start='1657091864288' status='broken' stop='1657092075693'>
+            <name>launch</name>
+            <title>launch</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 80000ms exceeded. The execution in the test "amazon launch" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Abhi Akshay\Desktop\WebDriver.io\test\specs\vtiger\amazonasignment.js)</message>
+                <stack-trace>Error: Timeout of 80000ms exceeded. The execution in the test "amazon launch" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Abhi Akshay\Desktop\WebDriver.io\test\specs\vtiger\amazonasignment.js)
+                    at createTimeoutError (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\mocha\lib\errors.js:498:15)
+                    at Runnable._timeoutError (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\mocha\lib\runnable.js:431:10)
+                    at done (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\mocha\lib\runnable.js:308:18)
+                    at C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\mocha\lib\runnable.js:371:11
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
