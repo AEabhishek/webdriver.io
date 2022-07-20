@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658300581363' stop='1658300595519'>
+    <name>vtiger</name>
+    <title>vtiger</title>
+    <test-cases>
+        <test-case start='1658300581364' status='broken' stop='1658300595518'>
+            <name>launch app</name>
+            <title>launch app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid argument: File not found : C:/Users/Abhi Akshay/Desktop/data2.xlsx
+                  (Session info: chrome=103.0.5060.114)</message>
+                <stack-trace>invalid argument: invalid argument: File not found : C:/Users/Abhi Akshay/Desktop/data2.xlsx
+                  (Session info: chrome=103.0.5060.114)
+                    at getErrorFromResponseBody (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\webdriver\build\request\index.js:166:60)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Element.wrapCommandFn (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Abhi Akshay\Desktop\WebDriver.io\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

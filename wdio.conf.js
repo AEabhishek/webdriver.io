@@ -33,6 +33,7 @@ exports.config = {
     specs: [
         // './test/specs/**/*.js',
         // // 'test/specs/demo.js',
+        'test/specs/vtiger/create_document.js'
         // 'test/specs/create_document.js',
         // 'test/specs/create_product.js',
         // 'test/specs/vtiger/create_compaign.js'
